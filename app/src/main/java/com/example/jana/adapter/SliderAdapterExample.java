@@ -61,7 +61,7 @@ public class SliderAdapterExample extends
         Glide.with(viewHolder.itemView)
                 .load(sliderItem.getImage())
                 .fitCenter()
-                .placeholder(R.drawable.autobotapplogo)
+                .placeholder(R.drawable.applogo)
                 .into(viewHolder.imageViewBackground);
 
         viewHolder.itemView.setOnClickListener(new View.OnClickListener() {

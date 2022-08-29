@@ -14,7 +14,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.example.jana.JoblistActivity;
 import com.example.jana.R;
-import com.example.jana.Users.MoredetailsActivity;
 import com.example.jana.helper.Session;
 import com.example.jana.model.Category;
 
@@ -46,7 +45,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
 
 
         holder.tvName.setText(category.getName());
-        Glide.with(activity).load(category.getImage()).placeholder(R.drawable.autobotapplogo).into(holder.imgCategory);
+        Glide.with(activity).load(category.getImage()).placeholder(R.drawable.applogo).into(holder.imgCategory);
 
 
 

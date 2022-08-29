@@ -21,6 +21,16 @@
             android:background="@drawable/ic_heroicons_solid_menu_alt_2"
             android:backgroundTint="@color/black" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:textColor="@color/black"/>
+
+
         <ImageView
             android:id="@+id/ivNotification"
             android:layout_width="24dp"
@@ -43,9 +53,6 @@
 
 
     </RelativeLayout>
-
-
-
 
 
     <com.ismaeldivita.chipnavigation.ChipNavigationBar

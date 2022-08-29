@@ -7,7 +7,7 @@
         app:cnb_iconColor="@color/white"
         app:cnb_textColor="@color/white"
         app:cnb_backgroundColor="@color/primaryColor"
-        android:title="DASHBOARD"
+        android:title="Dashboard"
         />
 
 
@@ -26,6 +26,6 @@
         app:cnb_iconColor="@color/white"
         app:cnb_textColor="@color/white"
         app:cnb_backgroundColor="@color/primaryColor"
-        android:title="Search"/>
+        android:title="Profile"/>
 
 </menu>
