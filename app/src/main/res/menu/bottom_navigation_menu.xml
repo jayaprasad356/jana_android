@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/dashboard_nav"
+        android:icon="@drawable/ic_baseline_home_24"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"
+        app:cnb_backgroundColor="@color/primaryColor"
+        android:title="DASHBOARD"
+        />
+
+
+    <item
+        android:id="@+id/category_nav"
+        android:icon="@drawable/ic_baseline_data_usage_24"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"
+        app:cnb_backgroundColor="@color/primaryColor"
+        android:title="Category"/>
+
+
+    <item
+        android:id="@+id/profile_nav"
+        android:icon="@drawable/ic_baseline_person_24"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"
+        app:cnb_backgroundColor="@color/primaryColor"
+        android:title="Search"/>
+
+</menu>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Users.HomeActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/topappbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/ivMenu"
+            android:layout_width="28dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_heroicons_solid_menu_alt_2"
+            android:backgroundTint="@color/black" />
+
+        <ImageView
+            android:id="@+id/ivNotification"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/ic_notifications_icon"
+            android:backgroundTint="@color/black"
+
+            />
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
+        android:id="@+id/chipNavigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:fadingEdge="horizontal"
+        app:cnb_menuResource="@menu/bottom_navigation_menu" />
+
+
+    <FrameLayout
+        android:layout_below="@+id/topappbar"
+        android:layout_above="@+id/chipNavigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container">
+    </FrameLayout>
+
+</RelativeLayout>

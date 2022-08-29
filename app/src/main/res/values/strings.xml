@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Jana</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string-array name="language">
+        <item>English</item>
+        <item>தமிழ்</item>
+        <item>हिन्दी</item>
+        <item>മലയാളം</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">Search</string>
+
+</resources>
