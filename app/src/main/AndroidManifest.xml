@@ -5,14 +5,6 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.CAMERA" /> <!-- permissions to read contacts -->
-    <uses-permission android:name="android.permission.READ_CONTACTS" /> <!-- permissions to write contacts -->
-    <uses-permission android:name="android.permission.WRITE_CONTACTS" /> <!-- permissions to make a call -->
-    <uses-permission android:name="android.permission.CALL_PHONE" /> <!-- permissions to send sms -->
-    <uses-permission android:name="android.permission.SEND_SMS" /> <!-- permissions to write sms -->
-    <uses-permission android:name="android.permission.WRITE_SMS" />
 
     <application
         android:name="com.greymatter.earnjoy.helper.ApiConfig"
@@ -28,7 +20,7 @@
             android:exported="false" />
         <activity
             android:name="com.greymatter.earnjoy.Users.OtpActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name="com.greymatter.earnjoy.Users.LoginActivity"
             android:exported="true" />
@@ -36,7 +28,8 @@
             android:name="com.greymatter.earnjoy.Users.SearchjobActivity"
             android:exported="false" />
         <activity android:name="com.greymatter.earnjoy.Users.MoredetailsActivity" />
-        <activity android:name="com.greymatter.earnjoy.Users.HomeActivity">
+        <activity android:name="com.greymatter.earnjoy.Users.HomeActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
